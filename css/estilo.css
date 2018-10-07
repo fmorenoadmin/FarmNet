@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter|Crimson+Text|Playfair+Display|Roboto+Slab');
+/*font-family: 'Roboto Slab', serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Bitter', serif;*/
+
+* {
+	padding: 0 auto;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: url("../img/bg.jpg") center;
+	font-size: 16px;
+	height: 100%;
+}
+
+header {
+	text-align: center;
+	padding-top: 5em;
+}
+
+h1 {
+	font-size: 4em;
+	color: black;
+	font-family: 'Playfair Display', serif;
+
+}
+
+.registro {
+	width: 30%;
+	border-radius: 10px;
+	height: 34.5vh;
+	background-color: rgba(192, 192, 192, .4);
+	text-align: center;
+	padding: 2em 2em;
+	margin-top: 5em;
+}
+
+.registro input {
+	width: 70%;
+	height: 4.5vh;
+	border-radius: 5px;
+	padding-left: 1em;
+}
+
+.registro button {
+	width: 70%;
+	height: 4.5vh;
+	border-radius: 5px;
+}

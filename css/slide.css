@@ -1,0 +1,158 @@
+* {
+	padding: 0 auto;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-color: #fcfcfc;
+}
+
+header {
+	width: 100%;
+	height: 5.6%;
+	background-color: #97DEAC;
+}
+
+header input {
+	margin: .5em;
+}
+
+header button {
+	margin-right: 1em;
+}
+
+header .busqueda {
+	float: left;
+	display: flex;
+	margin-left: 2em;
+}
+
+header .busqueda h2 {
+	padding-top: .2em;
+}
+
+header .registro {
+	float: right;
+}
+#cont {
+	margin-top: 1em;
+	width: 100%;
+	height: 100%;
+}
+
+.slider {
+	width: 100%;
+	height: 50%;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	width: 400%;
+	height: 100%;
+	padding: 0;
+	animation: cambio 10s infinite alternate linear;
+}
+
+.slider ul li {
+	width: 100%;
+	height: 100%;
+	list-style-type: none;
+}
+
+.slider ul li img {
+	width: 100%;
+	height: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0%;}
+	20% {margin-left: 0%;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+section {
+	width: 95%;
+	height: 150%;
+}
+
+section article {
+	width: 100%;
+	height: 30%;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	margin: 1px 0;
+	background-color: yellow;
+}
+
+section article .titulo {
+	display: block;
+	width: 100%;
+	height: 9.6%;
+	padding-left: 1.5em;
+	padding-top: .5em;
+	font-size: 24px;
+}
+
+section article .contenido {
+	width: 100%;
+	height: 90.4%;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+section article .producto {
+	width: 20%;
+	height: 80%;
+	border: 1px solid blue;
+	border-radius: 5%;
+	background-color: #174970;
+	align-items: center;
+	display: flex;
+	text-align: center;
+	padding-left: 8%;
+}
+
+footer {
+	width: 100%;
+	height: 10%;
+	float: left;
+	display: flex;
+	padding: 1em 0em;
+}
+
+footer .producido {
+}
+
+footer .sociales {
+	width: 30%;
+	height: 50%;
+}
+
+footer .sociales i {
+	background-color: #000;
+	width: 10%;
+	text-align: center;
+	color: #fff;
+	margin-left: 2em;
+	float: right;
+	padding: .5em;
+	border-radius: 50%;
+}
