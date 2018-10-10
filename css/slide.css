@@ -151,3 +151,51 @@ footer .sociales i {
 	padding: .5em;
 	border-radius: 50%;
 }
+
+.modal {
+	display: none;
+	background-color: #000;
+	position: absolute;
+	top: 10%;
+	transition: all 30s ease-in;
+	width: 60%;
+	height: 40%;
+	border-radius: 10px;
+	background-color: rgba(0,0,0, .5);
+	position: fixed;
+	top: 5.5%;
+	left: 31%;
+	text-align: center;
+	color: white;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+input:checked ~ .modal {
+	display: block;
+	transition: all 30s ease-in;
+}
+
+label {
+	margin-right: 1em;
+	background-color: #E4E4E4;
+	width: 10%;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: .2em;
+}
+
+.modal label {
+	position: absolute;
+	top: .5em;
+	right: 1.5em;
+	width: 5%;
+	height: 15%;
+	background-color: #fff;
+	color: #000;
+	padding-top: .6em;
+	border-radius: 50%;
+	text-align: center;
+}
